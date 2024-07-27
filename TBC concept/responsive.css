@@ -1,0 +1,285 @@
+
+@media screen and (max-width: 1300px) {
+    .products-container{
+        width: 82%;
+        margin-left: 11%;
+        height: 550px;
+        display: grid;
+        grid-template-areas: 
+        "one two three" ;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        overflow-x: scroll;
+    }
+
+
+    .mycard-products{
+        width: 25rem;
+        height:30rem;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        overflow: hidden;
+        border: 1px solid #d4dde0;
+        background-color: #F9FAFA;
+    }
+    .product-image1, .product-image2, .product-image3{
+        height:35vh;
+    }
+
+    main{
+        height:560vh
+    }
+
+} 
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .prices-h{
+        font-size: 16px;
+        line-height: 26px;
+        position: absolute;
+        top:90px;
+        }
+        
+        .prices-products{
+            font-weight: 200;
+            position: absolute;
+            top:270px;
+            left:15px;
+        }
+        .prices-logo{
+            width: 130px;
+            position: absolute;
+            top:14px;
+            left: 15px;
+        }
+        .prices-logo-last{
+            width: 130px;
+            position: absolute;
+            top:-25px;
+            left: 15px;
+        
+        }
+    
+    div.swiper{
+        width: 97%;
+        margin-left: 2%;
+      }
+      div.swiper2{
+        width: 97%;
+        margin-left: 2%;
+      }
+main{
+    height: 675vh
+    
+}
+ul.list{
+    display: none;
+}
+
+div.language{
+    display: none;
+}
+
+div.burger{
+    display: flex;
+    flex-direction: column;
+    gap:8px
+}
+
+.container_one{
+    height: 70vh;
+}
+
+.container_three{
+    height: 70vh;
+}
+
+
+
+.h4-one{
+    margin-left: 25px;
+    margin-top: 260px;
+}
+
+.cont_one_paragraph{
+    margin-left: 25px;
+    
+}
+
+.h4-one{
+    
+    margin-left: 25px;
+}
+.button{
+    margin-left: 25px;
+}
+swiper-container {
+    margin-left: 30px;
+  }
+
+  .bank{
+    width: 100%;
+    height:125vh;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+    .left-bank{
+        margin-top: 40px;
+    }
+.image-3{
+    display: none;
+}
+.image-3-responsive{
+    display: block;
+    width: 400px;
+}
+
+}
+.mycard{
+    width: 100%;
+}
+.prices-card{
+    max-width: 100%;
+}
+nav{
+top:0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container_one{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container_three{
+        width: 100%;
+        margin-left: 0;
+    }
+    main{
+        height: 670vh
+        
+    }
+    .list{
+        display: none;
+    }
+    
+    .language{
+        display: none;
+    }
+
+    #Layer_1{
+        display: none;
+    }
+
+    #logo{
+        display: block;
+        color:#555F62;
+    }
+    .burger{
+        display: flex;
+        flex-direction: column;
+        gap:8px
+    }
+
+    .button{
+        width: 90%;
+    }
+
+    .grid{
+        width: 82%;
+      margin-left: 11%;
+      height: 280px;
+      display: grid;
+      grid-template-areas: 
+      "one two three" ;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+      overflow-x: scroll;
+      
+    }
+
+    .first_left:hover {
+        transform: scale(1.0);
+    }
+    .right:hover {
+        transform: scale(1.0);
+    }
+    .second_left:hover {
+        transform: scale(1.0);
+    }
+
+    .first_left{
+        width: 280px;
+        height:260px;
+        background-position: center;
+    }
+
+    .second_left{
+        width: 280px;
+        height:260px;
+        background-position: center;
+    }
+    .right{
+        width: 280px;
+        height:260px;
+        background-position: center;
+    }
+
+    .container_two{
+        flex-direction: column;
+        gap:20px;
+
+    }
+
+    .box-one{
+        width: 100%;
+    }
+
+    .responsive-footer-container{
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    #footer1{
+        display: none;
+    }
+    
+    footer{
+        display: none;
+        
+    }
+   
+
+   
+
+    .card-p, .card-h5{
+        margin-left: 10px;
+    }
+
+    .prices-h{
+        font-size: 16px;
+        line-height: 26px;
+        position: absolute;
+        top:90px;
+        left:10px;
+        }
+        
+        .prices-products{
+            font-weight: 200;
+            position: absolute;
+            top:270px;
+            left:10px;
+        }
+    
+
+}
