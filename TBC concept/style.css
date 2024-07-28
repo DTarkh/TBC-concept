@@ -26,6 +26,10 @@ z-index: 4;
 background-color: #FFFFFF;
 }
 
+li{
+    margin: 0
+}
+
 .logo_one{
     color:#555F62;
 }
