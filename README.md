@@ -1,4 +1,4 @@
-# TBC-concept
+# TBC-Concept
 
 
 პროექტის სტარტისთვის საჭიროა: მარჯვენა ღილაკი index.html ფაილში სადაც "open with live server" ოფცია გაგვიხსნის გვერდს. 
