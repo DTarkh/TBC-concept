@@ -27,9 +27,6 @@
         height:35vh;
     }
 
-    main{
-        height:560vh
-    }
 
 } 
 
@@ -72,10 +69,7 @@
         width: 97%;
         margin-left: 2%;
       }
-main{
-    height: 675vh
-    
-}
+
 ul.list{
     display: none;
 }
@@ -162,10 +156,7 @@ top:0;
         width: 100%;
         margin-left: 0;
     }
-    main{
-        height: 670vh
-        
-    }
+ 
     .list{
         display: none;
     }
